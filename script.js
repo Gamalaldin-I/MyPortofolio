@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
 
             const link = document.createElement('a');
-            link.href = '/files/CVpdfCopy.pdf'; // ⚠️ Make sure this path is correct
+            link.href = '/files/GamalHatabaCV.pdf'; // ⚠️ Make sure this path is correct
             link.download = 'GamalHatabaCV.pdf'; // Optional: sets the file name
             link.click();
         });
